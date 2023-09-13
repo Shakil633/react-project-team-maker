@@ -32,10 +32,10 @@ const Home = () => {
         stateTotalCost(count);
       });
       //total taka theke - kora
-      const totalRemaining = 20000 - count;
+      const totalRemaining = 50000 - count;
 
       //taka jodi shesh hoiya jai tokhon aitah hobe
-      if (count > 20000) {
+      if (count > 50000) {
         return alert('Tumar taka sesh abar taka niya aso')
       } else {
         stateRemaining(totalRemaining);
